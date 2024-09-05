@@ -185,5 +185,54 @@ section {
 .drawing-board canvas {
     width: 100%;
     height: 100%;
+}
 
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .tools-board {
+        width: 180px; /* Reduce width for tablet-sized screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+    }
+
+    .tools-board {
+        width: 100%; /* Full width for smaller screens */
+        margin-bottom: 20px; /* Add spacing between tools-board and canvas */
+    }
+
+    .drawing-board {
+        width: 100%; /* Full width for canvas */
+    }
+
+    .buttons button {
+        font-size: 0.8rem; /* Slightly smaller button text */
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tools-board {
+        padding: 10px;
+        width: 100%; /* Full width on small mobile devices */
+    }
+
+    .drawing-board canvas {
+        height: 300px; /* Set a specific height for small devices */
+    }
+
+    .buttons button {
+        font-size: 0.7rem; /* Smaller button text for mobile */
+        padding: 8px;
+    }
+
+    .option :where(span, label) {
+        font-size: 0.8rem; /* Adjust font size for labels */
+    }
 }
