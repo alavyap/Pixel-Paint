@@ -10,7 +10,7 @@ Pixel Paint is a web-based painting application designed for creating pixel art.
 
 ## Live Demo
 
-You can try out Pixel Paint [here](Link).
+You can try out Pixel Paint [here](https://pixel-paint.alavyapandey.com/).
 
 ## Installation
 
