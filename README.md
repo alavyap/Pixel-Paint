@@ -12,6 +12,8 @@ Pixel Paint is a web-based painting application designed for creating pixel art.
 
 You can try out Pixel Paint [here](https://pixel-paint.alavyapandey.com/).
 
+![ScreenShot](pixel-paint.png)
+
 ## Installation
 
 To clone this repository and run Pixel Paint locally, follow these steps:
