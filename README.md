@@ -39,14 +39,15 @@ Open the index.html file in your web browser. You can do this by either double-c
 start index.html
 (The above command works on Windows; use open index.html on macOS or xdg-open index.html on Linux.)
 
-Usage
+##Usage
 Drawing: Use the color palette and brush size options to start creating your pixel art.
 Saving: Click the "Download" button to save your drawing as a PNG file to your local system.
-Contributing
+
+##Contributing
 Feel free to submit issues or pull requests if you have suggestions or improvements for Pixel Paint.
 
-License
+##License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+##Contact
 For any questions or feedback, please reach out to aalvya.pandey@gamil.com or Visit : https://www.alavyapandey.com/
